@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MockCycleGAN": {
+      "commandName": "Project",
+      "commandLineArgs": "-o D:\\Git\\CycleGANInterface\\MockCycleGAN\\bin\\Debug\\netcoreapp3.1\\Results -f C:\\Users\\Joost\\Pictures"
+    }
+  }
+}
