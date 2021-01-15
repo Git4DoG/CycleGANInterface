@@ -1,0 +1,40 @@
+﻿@page
+@model MockFotohokje.Pages.Upload.SingleModel
+@{
+}
+
+<h1>Single Upload</h1>
+@if (!string.IsNullOrEmpty(Model.PostingError))
+{
+    <div class="alert-danger">@Model.PostingError</div>
+}
+<form id="single-upload-form" method="post" enctype="multipart/form-data">
+    <label for="file">Image</label>
+    <div class="form-group">
+        <img id="image-preview" style="height: 400px; width: auto; display: none" src="" />
+        <input id="image-input" type="file" accept=".jpg,.png" class="form-control" asp-for="Image" />
+    </div>
+    <input id="confirm" type="submit" class="btn btn-dark" value="Complete" />
+    <button id="progress" style="display: none; margin-right: 3px; height: 38px; width: 95px" class="btn btn-dark" disabled>
+        <div class="spinner-border text-secondary" style="height: 25px; width: 25px"></div>
+    </button>
+    <a id="back-b" asp-page="/Index" class="btn btn-dark">Back</a>
+</form>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#image-input").change(() => {
+                var field = $("#image-input")[0];
+                if (FileReader && field.files && field.files.length > 0) {
+                    var fr = new FileReader();
+                    fr.onload = function () {
+                        var imgPrev = document.getElementById("image-preview");
+                        imgPrev.src = fr.result;
+                        imgPrev.style.display = "block";
+                    }
+                    fr.readAsDataURL(field.files[0]);
+                }
+            });
+        });
+    </script>
+}

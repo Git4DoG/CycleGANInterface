@@ -2,7 +2,7 @@
   "profiles": {
     "CycleGANInterface": {
       "commandName": "Project",
-      "commandLineArgs": "-f C:\\Users\\Joost\\Pictures -o D:\\Git\\CycleGANInterface\\Results"
+      "commandLineArgs": "-f \"C:\\Users\\Joost\\Pictures\" -o D:\\Git\\CycleGANInterface\\Results"
     }
   }
 }

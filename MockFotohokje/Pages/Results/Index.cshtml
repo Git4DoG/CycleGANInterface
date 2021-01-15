@@ -1,0 +1,56 @@
+﻿@page
+@model MockFotohokje.Pages.Results.IndexModel
+@{
+}
+<h1>Results</h1>
+<div>
+    <table id="results-table" class="table table-striped table-hover">
+        <thead class="thead-dark">
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#results-table').DataTable({
+                ajax: {
+                    async: true,
+                    url: '?handler=loadresults'
+                },
+                processing: true,
+                columns: [
+                    {
+                        data: "id",
+                        title: "Id",
+                        width: "75%"
+                    },
+                    {
+                        data: null,
+                        title: "Actions",
+                        width: "20%",
+                        render: renderActions
+                    }
+                ],
+                initComplete: function () {
+                    $(".del-form").submit(function (event) {
+                        var res = confirm("Do you really want to delete this result?");
+                        if (res == false)
+                            event.preventDefault();
+                    });
+                }
+            })
+        });
+
+        function renderActions(data, type, row) {
+            return  '<a class="btn btn-dark btn-actions" style="margin-left: 5px" href="Results/Details?id=' + data.id + '">Details</a>' +
+                    '<form method="post" class="form-actions del-form" enctype="multipart/form-data" style="display: inline-block; margin-left: 5px">' +
+                        '<input type="hidden" name="Id" value="' + data.id + '"/>' +
+                        '@Html.AntiForgeryToken()' +
+                        '<input class="btn btn-danger btn-form-actions" type="submit" value="Delete" />' +
+                    '</form>';
+        }
+    </script>
+}

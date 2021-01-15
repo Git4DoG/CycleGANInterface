@@ -1,0 +1,20 @@
+﻿@page
+@model MockFotohokje.Pages.Upload.BatchModel
+@{
+}
+<h1>Batch Upload</h1>
+@if (!string.IsNullOrEmpty(Model.PostingError))
+{
+    <div class="alert-danger">@Model.PostingError</div>
+}
+<form id="single-upload-form" method="post" enctype="multipart/form-data">
+    <label for="file">Image</label>
+    <div class="form-group">
+        <input id="batch-input" type="file" accept=".jpg,.png" class="form-control" asp-for="Images" multiple />
+    </div>
+    <input id="confirm" type="submit" class="btn btn-dark" value="Complete" />
+    <button id="progress" style="display: none; margin-right: 3px; height: 38px; width: 95px" class="btn btn-dark" disabled>
+        <div class="spinner-border text-secondary" style="height: 25px; width: 25px"></div>
+    </button>
+    <a id="back-b" asp-page="/Index" class="btn btn-dark">Back</a>
+</form>

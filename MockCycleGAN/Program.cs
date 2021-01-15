@@ -33,29 +33,31 @@ namespace MockCycleGAN
                 //if the input is a directory, get all files from it
                 //if input is a file, copy just that one
                 List<string> files = new List<string>();
-                if (Directory.Exists(inputUri.AbsolutePath)) //is a directory that exists
-                    files.AddRange(Directory.GetFiles(inputUri.AbsolutePath, "*.png"));
-                else if (File.Exists(inputUri.AbsolutePath)) //is a file
-                    files.Add(inputUri.AbsolutePath);
+                Console.WriteLine($"input is: {Uri.UnescapeDataString(inputUri.AbsolutePath)}");
+                if (Directory.Exists(Uri.UnescapeDataString(inputUri.AbsolutePath))) //is a directory that exists
+                    files.AddRange(Directory.GetFiles(Uri.UnescapeDataString(inputUri.AbsolutePath), "*.png"));
+                else if (File.Exists(Uri.UnescapeDataString(inputUri.AbsolutePath))) //is a file
+                    files.Add(Uri.UnescapeDataString(inputUri.AbsolutePath));
                 else
                     throw new Exception("Input does not exist");
 
                 //if output is a file, ERROR
                 //if output exists, copy files from input to output
                 //if output does not exist, create it and copy files
-                if (outputUri.AbsolutePath.Split('/').Last().Contains('.'))
+                if (Uri.UnescapeDataString(outputUri.AbsolutePath).Split('/').Last().Contains('.'))
                     throw new Exception("Output is not a folder");
-                if (!Directory.Exists(outputUri.AbsolutePath))
-                    Directory.CreateDirectory(outputUri.AbsolutePath);
+                if (!Directory.Exists(Uri.UnescapeDataString(outputUri.AbsolutePath)))
+                    Directory.CreateDirectory(Uri.UnescapeDataString(outputUri.AbsolutePath));
 
                 foreach (string file in files)
                 {
-                    File.Copy(file, Path.Combine(outputUri.AbsolutePath, Path.GetFileName(file)), true);
+                    File.Copy(file, Path.Combine(Uri.UnescapeDataString(outputUri.AbsolutePath), Path.GetFileName(file)), true);
                 }
             } catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
+            Console.WriteLine("CycleGAN done");
         }
     }
 }

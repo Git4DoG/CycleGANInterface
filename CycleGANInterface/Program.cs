@@ -65,11 +65,11 @@ namespace CycleGANInterface
             StringBuilder argumentBuilder = new StringBuilder();
             argumentBuilder.Append(input.Argument);
             if (input is PathArgument)
-                argumentBuilder.Append($" {(input as PathArgument).Value.AbsolutePath}");
+                argumentBuilder.Append($" \"{Uri.UnescapeDataString((input as PathArgument).Value.AbsolutePath)}\"");
             else if (input is ByteArrayArgument)
                 argumentBuilder.Append($" BYTEARRAY");
 
-            argumentBuilder.Append($" {output.Argument} {(output as PathArgument).Value.AbsolutePath}");
+            argumentBuilder.Append($" {output.Argument} \"{Uri.UnescapeDataString((output as PathArgument).Value.AbsolutePath)}\"");
 
             CycleGANProcess process = new CycleGANProcess();
             if (!process.Start(argumentBuilder.ToString()))
