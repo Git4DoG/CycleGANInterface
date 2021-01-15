@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MockFotohokje.Model;
@@ -14,8 +13,8 @@ namespace MockFotohokje.Pages.Results
     {
         private readonly CycleGANResultsController results;
 
-        public ICycleGANresult Result;
-        public List<string> Pictures;
+        public ICycleGANresult Result { get; set; }
+        public List<string> Pictures { get; set; }
 
         public DetailsModel (CycleGANResultsController results)
         {

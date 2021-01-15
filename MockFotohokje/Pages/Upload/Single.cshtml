@@ -11,7 +11,7 @@
 <form id="single-upload-form" method="post" enctype="multipart/form-data">
     <label for="file">Image</label>
     <div class="form-group">
-        <img id="image-preview" style="height: 400px; width: auto; display: none" src="" />
+        <img alt="Preview" id="image-preview" style="height: 400px; width: auto; display: none" src="" />
         <input id="image-input" type="file" accept=".jpg,.png" class="form-control" asp-for="Image" />
     </div>
     <input id="confirm" type="submit" class="btn btn-dark" value="Complete" />

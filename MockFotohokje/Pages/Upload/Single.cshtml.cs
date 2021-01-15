@@ -1,7 +1,5 @@
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -16,10 +14,6 @@ namespace MockFotohokje.Pages.Upload
         public SingleModel (CycleGANInterfaceController cgic)
         {
             cycleGAN = cgic;
-        }
-
-        public void OnGet()
-        {
         }
 
         public string PostingError { get; set; }

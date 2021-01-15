@@ -1,0 +1,14 @@
+g
+\D:\Git\CycleGANInterface\MockFotohokje\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.csutf-8g
+\D:\Git\CycleGANInterface\MockFotohokje\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.csutf-8i
+^D:\Git\CycleGANInterface\MockFotohokje\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.csutf-8q
+fD:\Git\CycleGANInterface\MockFotohokje\obj\Debug\netcoreapp3.1\Razor\Pages\Results\Details.cshtml.g.csutf-8o
+dD:\Git\CycleGANInterface\MockFotohokje\obj\Debug\netcoreapp3.1\Razor\Pages\Results\Index.cshtml.g.csutf-8p
+eD:\Git\CycleGANInterface\MockFotohokje\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Header.cshtml.g.csutf-8p
+eD:\Git\CycleGANInterface\MockFotohokje\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.csutf-8‚
+wD:\Git\CycleGANInterface\MockFotohokje\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.csutf-8n
+cD:\Git\CycleGANInterface\MockFotohokje\obj\Debug\netcoreapp3.1\Razor\Pages\Upload\Batch.cshtml.g.csutf-8o
+dD:\Git\CycleGANInterface\MockFotohokje\obj\Debug\netcoreapp3.1\Razor\Pages\Upload\Single.cshtml.g.csutf-8n
+cD:\Git\CycleGANInterface\MockFotohokje\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.csutf-8l
+aD:\Git\CycleGANInterface\MockFotohokje\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.csutf-8r
+gD:\Git\CycleGANInterface\MockFotohokje\obj\Debug\netcoreapp3.1\MockFotohokje.RazorTargetAssemblyInfo.csutf-8

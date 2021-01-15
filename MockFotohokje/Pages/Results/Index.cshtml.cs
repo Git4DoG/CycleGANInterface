@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MockFotohokje.Model;
@@ -18,10 +17,6 @@ namespace MockFotohokje.Pages.Results
         public IndexModel (CycleGANResultsController results)
         {
             this.results = results;
-        }
-
-        public void OnGet()
-        {
         }
 
         public IActionResult OnGetLoadResults ()

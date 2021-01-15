@@ -2,16 +2,14 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Timers;
-using System.Threading.Tasks;
 using System.IO;
 
 namespace MockFotohokje.Services
 {
     public class CycleGANInterfaceController
     {
-        private Dictionary<int, CycleGANProcess> currentProcesses;
+        private readonly Dictionary<int, CycleGANProcess> currentProcesses;
         private readonly CycleGANResultsController resultsController;
 
         private readonly int timeout = 20000;

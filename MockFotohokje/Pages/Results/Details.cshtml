@@ -6,7 +6,7 @@
 <div>
     @foreach(string pic in Model.Pictures)
     {
-        <img style="height: 400px; width: auto" src="@pic" />
+        <img alt="Processed image" style="height: 400px; width: auto" src="@pic" />
     }
 </div>
 <a id="back-b" asp-page="/Results/Index" class="btn btn-dark">Back</a>

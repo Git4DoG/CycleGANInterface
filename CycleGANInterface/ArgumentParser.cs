@@ -8,7 +8,7 @@ namespace CycleGANInterface
 {
     public class ArgumentParser
     {
-        private Dictionary<string, IArgument> arguments;
+        private readonly Dictionary<string, IArgument> arguments;
 
         public ArgumentParser (params string[] args)
         {
@@ -36,7 +36,7 @@ namespace CycleGANInterface
                     if (arguments.ContainsKey("-f") || arguments.ContainsKey("-b"))
                         //Cannot contain multiple folder arguments or a combination of b and f
                         throw new Exception("Multiple folder arguments or a combination of image and folder arguments are not allowed");
-                    if(!Uri.TryCreate(value, UriKind.RelativeOrAbsolute, out Uri? link))
+                    if(!Uri.TryCreate(value, UriKind.RelativeOrAbsolute, out Uri link))
                         throw new Exception("Invalid input path uri");
                     arguments.Add("-f", new PathArgument { Argument = "-f", RawValue = value, Value = link });
                     break;
@@ -53,7 +53,7 @@ namespace CycleGANInterface
                 case "-O":
                     if(arguments.ContainsKey("-o"))
                         throw new Exception("Multiple output folder arguments are not allowed");
-                    if (!Uri.TryCreate(value, UriKind.RelativeOrAbsolute, out Uri? outputPath) ||
+                    if (!Uri.TryCreate(value, UriKind.RelativeOrAbsolute, out Uri outputPath) ||
                         outputPath.AbsolutePath.Split('/').Last().Contains('.'))
                         throw new Exception("Invalid output path uri");
                     arguments.Add("-o", new PathArgument { Argument = "-o", RawValue = value, Value = outputPath });

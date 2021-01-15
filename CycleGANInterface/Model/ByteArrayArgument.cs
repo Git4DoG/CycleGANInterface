@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CycleGANInterface.Model
+﻿namespace CycleGANInterface.Model
 {
     public class ByteArrayArgument : IArgument
     {

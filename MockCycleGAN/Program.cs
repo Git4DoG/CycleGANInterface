@@ -26,8 +26,8 @@ namespace MockCycleGAN
                 }
 
                 if (string.IsNullOrEmpty(inputPath) || string.IsNullOrEmpty(outputPath)
-                    || !Uri.TryCreate(inputPath, UriKind.RelativeOrAbsolute, out Uri? inputUri)
-                    || !Uri.TryCreate(outputPath, UriKind.RelativeOrAbsolute, out Uri? outputUri))
+                    || !Uri.TryCreate(inputPath, UriKind.RelativeOrAbsolute, out Uri inputUri)
+                    || !Uri.TryCreate(outputPath, UriKind.RelativeOrAbsolute, out Uri outputUri))
                     throw new Exception("Invalid arguments");
 
                 //if the input is a directory, get all files from it
