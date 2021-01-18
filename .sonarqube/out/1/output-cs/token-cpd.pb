@@ -1,4 +1,4 @@
-Ú
+è
 CD:\Git\CycleGANInterface\MockFotohokje\Model\CycleGANBatchResult.cs
 	namespace 	
 MockFotohokje
@@ -31,11 +31,20 @@ FolderPath 
 ;# $
 set% (
 ;( )
-}* +
-}		 
-}
+}* +
+public		 
+DateTime		 
+Created		 
+{		  !
+get		" %
+;		% &
+set		' *
+;		* +
+}		, -
+}
 
- Ô
+ 
+} Ô
 
 ?D:\Git\CycleGANInterface\MockFotohokje\Model\CycleGANProcess.cs
 	namespace 	
@@ -130,7 +139,7 @@ FolderPath 
 ;  
 } 	
 } 
-} Û
+} ê
 DD:\Git\CycleGANInterface\MockFotohokje\Model\CycleGANSingleResult.cs
 	namespace 	
 MockFotohokje
@@ -162,11 +171,20 @@ DD:\Git\CycleGANInterface\MockFotohokje\Model\CycleGANSingleResult.cs
 ;" #
 set$ '
 ;' (
-}) *
-}		 
-}
+}) *
+public		 
+DateTime		 
+Created		 
+{		  !
+get		" %
+;		% &
+set		' *
+;		* +
+}		, -
+}
 
- ß
+ 
+} ƒ
 ?D:\Git\CycleGANInterface\MockFotohokje\Model\ICycleGANResult.cs
 	namespace 	
 MockFotohokje
@@ -187,9 +205,20 @@ DD:\Git\CycleGANInterface\MockFotohokje\Model\CycleGANSingleResult.cs
 ; 
 set !
 ;! "
-}# $
-} 
-}		 ﬁ
+}# $
+public 
+DateTime 
+Created 
+{  !
+get" %
+;% &
+set' *
+;* +
+}, -
+}		 
+}
+
+ ﬁ
 
 <D:\Git\CycleGANInterface\MockFotohokje\Pages\Error.cshtml.cs
 	namespace 	
@@ -587,7 +616,7 @@ FolderPath**Q [
 ;33 
 }44 	
 }55 
-}66 Â
+}66 –
 DD:\Git\CycleGANInterface\MockFotohokje\Pages\Results\Index.cshtml.cs
 	namespace 	
 MockFotohokje
@@ -666,9 +695,15 @@ IndexModel 
 result@ F
 .F G
 IdG I
-}J K
-)K L
-;L M
+,I J
+CreatedK R
+=S T
+resultU [
+.[ \
+Created\ c
+}d e
+)e f
+;f g
 return 
 new 
 
@@ -1292,7 +1327,7 @@ UseStartup )
 ) 
 ; 
 } 
-} Ò`
+} ﬂb
 ND:\Git\CycleGANInterface\MockFotohokje\Services\CycleGANInterfaceController.cs
 	namespace 	
 MockFotohokje
@@ -1951,9 +1986,20 @@ cycleGANIdee$ .
 cycleGANooW _
 .oo_ `
 OutputFolderoo` l
-}oom n
-)oon o
-;ooo p
+,ool m
+Createdoon u
+=oov w
+DateTime	oox Ä
+.
+ooÄ Å
+UtcNow
+ooÅ á
+}
+ooà â
+)
+ooâ ä
+;
+ooä ã
 breakpp 
 ;pp 
 caseqq 
@@ -1974,9 +2020,20 @@ FolderPathrrJ T
 cycleGANrrW _
 .rr_ `
 OutputFolderrr` l
-}rrm n
-)rrn o
-;rro p
+,rrl m
+Createdrrn u
+=rrv w
+DateTime	rrx Ä
+.
+rrÄ Å
+UtcNow
+rrÅ á
+}
+rrà â
+)
+rrâ ä
+;
+rrä ã
 breakss 
 ;ss 
 }tt 
@@ -2381,7 +2438,7 @@ UseRouting-- 
 ;44 
 }55 	
 }66 
-}77 ª
+}77 ÿ
 KD:\Git\CycleGANInterface\MockFotohokje\ViewModels\CycleGANResultListItem.cs
 	namespace 	
 MockFotohokje
@@ -2403,6 +2460,17 @@ ViewModels "
 ; 
 set !
 ;! "
-}# $
-} 
-}		 
+}# $
+public 
+DateTime 
+Created 
+{  !
+get" %
+;% &
+set' *
+;* +
+}, -
+}		 
+}
+
+ 

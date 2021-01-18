@@ -103,7 +103,9 @@
     <Property Name="sonar.core.startTime">15-1-2021 18:03:48</Property>
     <Property Name="sonar.core.id">BF41A1F2-AXcHANb0t6tusvPH5HB6</Property>
   </ServerSettings>
-  <LocalSettings />
+  <LocalSettings>
+    <Property Name="sonar.cs.vstest.reportsPaths">TestCycleGANInterface/TestResults/*.trx,TestCycleGANSpeed/TestResults/*.trx</Property>
+  </LocalSettings>
   <AnalyzersSettings>
     <AnalyzerSettings>
       <Language>cs</Language>

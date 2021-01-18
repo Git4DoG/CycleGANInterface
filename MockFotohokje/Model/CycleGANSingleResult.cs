@@ -6,5 +6,6 @@ namespace MockFotohokje.Model
     {
         public Guid Id { get; set; }
         public Uri ImagePath { get; set; }
+        public DateTime Created { get; set; }
     }
 }

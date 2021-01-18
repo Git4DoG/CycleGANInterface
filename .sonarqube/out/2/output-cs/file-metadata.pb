@@ -1,10 +1,5 @@
-E
-<D:\Git\CycleGANInterface\CycleGANInterface\ArgumentParser.csutf-8N
-ED:\Git\CycleGANInterface\CycleGANInterface\Model\ByteArrayArgument.csutf-8L
-CD:\Git\CycleGANInterface\CycleGANInterface\Model\CycleGANProcess.csutf-8F
-=D:\Git\CycleGANInterface\CycleGANInterface\Model\IArgument.csutf-8I
-@D:\Git\CycleGANInterface\CycleGANInterface\Model\PathArgument.csutf-8K
-BD:\Git\CycleGANInterface\CycleGANInterface\Model\StringArgument.csutf-8>
-5D:\Git\CycleGANInterface\CycleGANInterface\Program.csutf-8|
-qD:\Git\CycleGANInterface\CycleGANInterface\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8o
-dD:\Git\CycleGANInterface\CycleGANInterface\obj\Debug\netcoreapp3.1\CycleGANInterface.AssemblyInfo.csutf-8
+I
+@D:\Git\CycleGANInterface\TestMockFotohokjeSelenium\SystemTest.csutf-8}
+rC:\Users\Joost\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.csutf-8„
+yD:\Git\CycleGANInterface\TestMockFotohokjeSelenium\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8
+tD:\Git\CycleGANInterface\TestMockFotohokjeSelenium\obj\Debug\netcoreapp3.1\TestMockFotohokjeSelenium.AssemblyInfo.csutf-8

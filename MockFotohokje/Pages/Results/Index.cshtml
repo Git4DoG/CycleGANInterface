@@ -25,7 +25,12 @@
                     {
                         data: "id",
                         title: "Id",
-                        width: "75%"
+                        width: "50%"
+                    },
+                    {
+                        data: "created",
+                        title: "Created",
+                        width: "30%"
                     },
                     {
                         data: null,
@@ -34,6 +39,7 @@
                         render: renderActions
                     }
                 ],
+                order: [[1, "desc"]],
                 initComplete: function () {
                     $(".del-form").submit(function (event) {
                         var res = confirm("Do you really want to delete this result?");

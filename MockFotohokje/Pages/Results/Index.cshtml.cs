@@ -23,7 +23,7 @@ namespace MockFotohokje.Pages.Results
         {
             List<CycleGANResultListItem> listItems = new List<CycleGANResultListItem>();
             foreach (ICycleGANresult result in results.Results)
-                listItems.Add(new CycleGANResultListItem { Id = result.Id });
+                listItems.Add(new CycleGANResultListItem { Id = result.Id, Created = result.Created });
             return new JsonResult(new { data = listItems });
         }
 

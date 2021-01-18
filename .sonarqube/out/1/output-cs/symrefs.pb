@@ -1,11 +1,13 @@
-i
+u
 CD:\Git\CycleGANInterface\MockFotohokje\Model\CycleGANBatchResult.cs
 
  $
 
  
 
- •
+ 
+
+		 •
 ?D:\Git\CycleGANInterface\MockFotohokje\Model\CycleGANProcess.cs
   C N
 
@@ -23,19 +25,23 @@ CD:\Git\CycleGANInterface\MockFotohokje\Model\CycleGANBatchResult.cs
  
 ( / 
 5 A '
-O S j
+O S v
 DD:\Git\CycleGANInterface\MockFotohokje\Model\CycleGANSingleResult.cs
 
  %
 
  
 
- Y
+ 
+
+		 e
 ?D:\Git\CycleGANInterface\MockFotohokje\Model\ICycleGANResult.cs
 
  $
 
- ‚
+ 
+
+ ‚
 <D:\Git\CycleGANInterface\MockFotohokje\Pages\Error.cshtml.cs
 
  
@@ -70,7 +76,7 @@ FD:\Git\CycleGANInterface\MockFotohokje\Pages\Results\Details.cshtml.cs
 ## $$ && 
 ))$ )**K P
 ** ++ -- $
-00 11 !ô
+00 11 !þ
 DD:\Git\CycleGANInterface\MockFotohokje\Pages\Results\Index.cshtml.cs
 
  2
@@ -80,8 +86,8 @@ DD:\Git\CycleGANInterface\MockFotohokje\Pages\Results\Index.cshtml.cs
 5 < "
 
  -
-) 2 / 8
-% +@ F
+) 2 / 8
+% +@ FU [
  ## %%P R
 
 !! F
@@ -224,9 +230,11 @@ LD:\Git\CycleGANInterface\MockFotohokje\Services\CycleGANResultsController.cs
  Z
 2 5!! %% '' ** ++ -- // 11 
 K N 
-11 &33 e
+11 &33 q
 KD:\Git\CycleGANInterface\MockFotohokje\ViewModels\CycleGANResultListItem.cs
 
  '
 
- 
+ 
+
+ 

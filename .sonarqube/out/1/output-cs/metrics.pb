@@ -1,11 +1,14 @@
-V
-CD:\Git\CycleGANInterface\MockFotohokje\Model\CycleGANBatchResult.cs 8r		
-c
+W
+CD:\Git\CycleGANInterface\MockFotohokje\Model\CycleGANBatchResult.cs 8r
+	
+c
 ?D:\Git\CycleGANInterface\MockFotohokje\Model\CycleGANProcess.cs 8r	
-‚W
-DD:\Git\CycleGANInterface\MockFotohokje\Model\CycleGANSingleResult.cs 8r		
-O
-?D:\Git\CycleGANInterface\MockFotohokje\Model\ICycleGANResult.cs8r	]
+‚X
+DD:\Git\CycleGANInterface\MockFotohokje\Model\CycleGANSingleResult.cs 8r
+	
+P
+?D:\Git\CycleGANInterface\MockFotohokje\Model\ICycleGANResult.cs8r		
+]
 <D:\Git\CycleGANInterface\MockFotohokje\Pages\Error.cshtml.cs 8r	
 ‚I
 <D:\Git\CycleGANInterface\MockFotohokje\Pages\Index.cshtml.csrK
@@ -28,5 +31,5 @@ ND:\Git\CycleGANInterface\MockFotohokje\Services\CycleGANInterfaceController.cs
 LD:\Git\CycleGANInterface\MockFotohokje\Services\CycleGANResultsController.cs 8	j"#r*	
  !$%&'(*+,-/012x‚%&(*+-/€
 1D:\Git\CycleGANInterface\MockFotohokje\Startup.cs 8j&r+	
- !"#$%'(*+-/1234567x‚!%'*+-/13]
-KD:\Git\CycleGANInterface\MockFotohokje\ViewModels\CycleGANResultListItem.cs 8r	
+ !"#$%'(*+-/1234567x‚!%'*+-/13^
+KD:\Git\CycleGANInterface\MockFotohokje\ViewModels\CycleGANResultListItem.cs 8r		

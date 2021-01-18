@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <ProjectName>CycleGANInterface</ProjectName>
+  <ProjectName>TestMockFotohokjeSelenium</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
-  <ProjectType>Product</ProjectType>
-  <ProjectGuid>818d2ce4-073e-4d36-ac93-22f24a4fb051</ProjectGuid>
-  <FullPath>D:\Git\CycleGANInterface\CycleGANInterface\CycleGANInterface.csproj</FullPath>
+  <ProjectType>Test</ProjectType>
+  <ProjectGuid>900fa2bc-754c-471b-8b0f-2b6b8ca73c59</ProjectGuid>
+  <FullPath>D:\Git\CycleGANInterface\TestMockFotohokjeSelenium\TestMockFotohokjeSelenium.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="D:\Git\CycleGANInterface\.sonarqube\out\2\FilesToAnalyze.txt" />
   </AnalysisResults>
   <AnalysisSettings>
-    <Property Name="sonar.cs.roslyn.reportFilePaths">D:\Git\CycleGANInterface\CycleGANInterface\bin\Debug\netcoreapp3.1\CycleGANInterface.dll.RoslynCA.json|D:\Git\CycleGANInterface\CycleGANInterface\bin\Debug\netcoreapp3.1\CycleGANInterface.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">D:\Git\CycleGANInterface\TestMockFotohokjeSelenium\bin\Debug\netcoreapp3.1\TestMockFotohokjeSelenium.dll.RoslynCA.json|D:\Git\CycleGANInterface\TestMockFotohokjeSelenium\bin\Debug\netcoreapp3.1\TestMockFotohokjeSelenium.dll.RoslynCA.json</Property>
     <Property Name="sonar.cs.analyzer.projectOutPaths">D:\Git\CycleGANInterface\.sonarqube\out\2</Property>
   </AnalysisSettings>
   <Configuration>Debug</Configuration>

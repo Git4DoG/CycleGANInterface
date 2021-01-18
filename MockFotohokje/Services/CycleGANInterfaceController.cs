@@ -108,10 +108,10 @@ namespace MockFotohokje.Services
             switch (cycleGAN.CycleGANType)
             {
                 case ProcessType.Single:
-                    resultsController.AddResult(new CycleGANSingleResult { ImagePath = cycleGAN.OutputFolder });
+                    resultsController.AddResult(new CycleGANSingleResult { ImagePath = cycleGAN.OutputFolder, Created = DateTime.UtcNow });
                     break;
                 case ProcessType.Batch:
-                    resultsController.AddResult(new CycleGANBatchResult { FolderPath = cycleGAN.OutputFolder });
+                    resultsController.AddResult(new CycleGANBatchResult { FolderPath = cycleGAN.OutputFolder, Created = DateTime.UtcNow });
                     break;
             }
         }
